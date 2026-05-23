@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Monsters</title>
+    <title>Unity Web Player | Monsters Hate Light</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Monsters</div>
+        <div id="unity-build-title">Monsters Hate Light</div>
       </div>
     </div>
     <script>
@@ -52,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/b72e6bf1c4f6e1a34cb1225a574414ac.loader.js";
+      var loaderUrl = buildUrl + "/d7d3d4ad7f8a20662fa877b60f85a80e.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/a1ef0db42fdadd771662c13dbeeed802.data.unityweb",
-        frameworkUrl: buildUrl + "/0c009a9bfe270f00b23805cb3d6af9b2.framework.js.unityweb",
-        codeUrl: buildUrl + "/98ee11176493c1605c17258dbd19ac64.wasm.unityweb",
+        dataUrl: buildUrl + "/83b944d8c59affa43d490721773e917d.data.unityweb",
+        frameworkUrl: buildUrl + "/9019fdd33c783bb58a8a78df826662da.framework.js.unityweb",
+        codeUrl: buildUrl + "/03c44c7a217df78f4826190318fb74c4.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Khylyk",
-        productName: "Monsters",
-        productVersion: "1.0.7",
+        productName: "Monsters Hate Light",
+        productVersion: "1.0.8",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "540px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
